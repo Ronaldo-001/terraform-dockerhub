@@ -1,0 +1,29 @@
+{
+  "name": "terraform-dockerhub",
+  "version": "1.0.0",
+  "description": "use github actions to automate image build and push and notify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ronaldo-001/terraform-dockerhub.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ronaldo-001/terraform-dockerhub/issues"
+  },
+  "homepage": "https://github.com/Ronaldo-001/terraform-dockerhub#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
